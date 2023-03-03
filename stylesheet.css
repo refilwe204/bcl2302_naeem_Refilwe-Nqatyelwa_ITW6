@@ -75,38 +75,32 @@ html {
     color: black
   }
     
-  h2,h3{
+  h2 {
     text-align: center;
     font-size: 40px;
-    margin: 20px;
-    padding: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    font-weight: normal; 
-    border-style: solid;
-    padding: 10px;
     
-    container {
-        display: flex;
-        padding: 20px;
+  }
+    
+    #containerflex {
+      display: flex: ;
     }
 
-    box1 {
+    #box01 {
         border: 1px solid black;
-        padding: 10px; 
-        text-align: center;     
+        padding: 10px;  
+        flex: 4;  
     }
     
-    box2 {
+    #box02 {
         border: 1px solid black;
         padding: 10px;
-        text-align centre
+        flex: 3;
     }
    
-    box3 {
+    #box03 {
       border: 1px solid black;
       padding: 10px;
-      text-align centre
+      flex: 2;
   }
 
 
@@ -115,12 +109,6 @@ html {
       position: sticky
     }
 
-    article{
-      flex basis: 70%;
-      padding: 10px;
-      border:bottom;
-    }
-    
 
     
 
