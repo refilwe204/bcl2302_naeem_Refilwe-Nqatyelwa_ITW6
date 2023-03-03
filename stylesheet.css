@@ -88,7 +88,8 @@ html {
     #box01 {
         border: 1px solid black;
         padding: 10px;  
-        flex: 4;  
+        flex: 4; 
+        border-inline-end-color: black; 
     }
     
     #box02 {
